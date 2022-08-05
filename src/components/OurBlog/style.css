@@ -1,0 +1,59 @@
+.our-blog{
+    text-align: center;
+    
+}
+.blog{
+    
+width: 67px;
+height: 24px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 150.6%;
+
+
+text-align: center;
+
+color: #7B7B7B;
+
+}
+.our-blog .title{
+   
+
+margin: 35px 200px;
+
+/* H4-25px */
+
+
+/* or 31px */
+
+text-align: center;
+
+/* Black */
+
+color: #373737;
+
+}
+.our-blog .container{
+    width: 296px;
+   height: 220px;
+   margin: 25px 25%;
+
+   background: #FFFFFF;
+
+
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+.blog-div1 {
+    display: flex;
+}
+.blog-div-text1 .name{
+    margin: 0 2px;
+}
+.blog-div-text1 .porofession{
+    align-items: left;
+    margin: 0;
+}
+.blog-div-text1 .name{
+    margin: 0;
+}

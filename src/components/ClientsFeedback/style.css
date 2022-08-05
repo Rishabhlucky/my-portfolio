@@ -1,0 +1,66 @@
+.feedback{
+    text-align: center;
+    
+}
+.feedback .title{
+    text-align: center;
+     margin: 20px 25%;
+
+}
+.justin , .couse {
+  display: inline-block;
+width: 226px;
+height: 177px;
+position: relative;
+margin:20px 55px;
+background: #FF5300;
+/* Effect-1 */
+
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.justin .justin-logo , .couse .couse-logo{
+    position: absolute;
+    left: -16px;
+    top: 30px;
+}
+
+
+
+.justin .h6 ,.couse .h6{
+    padding: 3%;
+    margin: -2% 7%;
+   
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+@media (min-width:768px){
+    .justin , .couse {
+       width: 292px;
+
+        height: 214px;
+        font-weight: 400;
+     
+       line-height: 150.6%;
+    }
+
+}
+
+
+@media (min-width:768px){
+    .justin , .couse {
+     width: 470px;
+     font-weight: 400;
+     font-weight: 400;
+      line-height: 150.6%;
+
+
+      height: 250px;
+    }
+}

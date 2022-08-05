@@ -1,0 +1,126 @@
+.our-exoerience{
+    text-align: center;
+    margin-top: 30px;
+}
+.our-exoerience .title{
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+text-align: center;
+margin: 20px 130px;
+}
+.our-exoerience .subtitle{
+    margin: 40px 93px;
+
+    
+}
+.our-exoerience .box {
+    text-align: center;
+    margin-left: 80px;
+}
+ .box .boxes{
+    
+    width: 100px;
+    height: 100px;
+    padding: 33px;
+    margin: 13px 132px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+@media (min-width:768px){
+ .our-exoerience .title{
+   margin: 0;
+font-family: Work Sans;
+font-size: 31px;
+font-weight: 600;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+
+ }
+ .our-exoerience .subtitle{
+    /* position: absolute; */
+    width: 331px;
+   height: 215px;
+   /* left: 41px;
+    top: 237px; */
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150.6%;
+
+ }
+    .box{
+    display: flex;
+   
+
+ }
+ .Our-Box{
+    display: flex;
+    flex: 1;
+ }
+    .box .boxes{
+        width: 126px;
+        height: 132px;
+        padding: 32px;
+        margin: 18px 24px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+
+    }
+   .box .box-no3{
+    margin-top: 40px;
+   }
+}
+
+@media (min-width:1024px){
+    .our-exoerience .title{
+        width: 332px;
+height: 117px;
+left: 40px;
+top: 102px;
+
+/* H3-31.25px */
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 31.25px;
+line-height: 123.6%;
+margin-left: 50px;
+    }
+    .our-exoerience .subtitle{
+        width: 331px;
+height: 215px;
+
+
+
+/* H6-16px (paragraph) */
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150.6%;
+margin-left: 50px;
+    }
+    .our-exoerience .boxes{
+      
+        width: 270px;
+        height: 350px;
+         background: #3A3B3C;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    }
+     .box-no3{
+        margin-top: 55px;
+}
+    .box .boxes{
+      padding:1px 30px 78px 43px;
+}
+
+
+}

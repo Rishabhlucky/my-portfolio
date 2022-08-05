@@ -1,0 +1,15 @@
+.app-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+
+}
+.app-header .lighticon{
+    margin-right: 95px;
+}
+@media (min-width:768px){
+.app-header .menuicon{
+    display: none;
+}
+}

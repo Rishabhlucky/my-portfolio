@@ -1,0 +1,42 @@
+ .img2,.img3{
+    display: none;
+} 
+
+.img-logo{
+    position: relative;
+    
+}
+
+.img1{
+    
+    /* position: absolute; */
+    left: 20px;
+    top: 25px;
+    margin-top: 50px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 162px;
+    top: 56px;
+}
+
+
+@media (min-width: 768px){
+    .img-logo{
+        display: flex;
+        flex: 1;
+       
+
+    }
+    .img2, .img3{
+         display: inline; 
+        margin-top: 50px;
+        margin-left: 25px;
+
+    }
+  
+    
+
+}
