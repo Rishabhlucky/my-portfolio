@@ -1,7 +1,6 @@
-.teammenber{
-    align-items: center;
+.teammember
+{
+    text-align: center;
+    margin-top: 50px;
 }
-.title ,.h5{
-    align-items: center;
-    margin: 30%;
-}
+

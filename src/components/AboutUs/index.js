@@ -17,7 +17,8 @@ const AboutUs=()=>{
         <div >
             <h3 >About us</h3>
             <Typography type='H1' className=' text-dark AboutUs-title'>
-            We Are<span className='text-orange'> Better For Everyone </span> For Everyone
+            We Are<span className='text-orange'>  Making Ideas Better </span> For Everyone
+
             </Typography>
 
             <Typography type='H4' className='text-gray AboutUs-subtitle'>
@@ -33,7 +34,7 @@ const AboutUs=()=>{
             <div className='icons-container bg-whte'>
               <div className='file'>
                 <AppImage 
-                src={`${process.env.PUBLIC_URL}/assets/svgs/logo.svg`} alt='logo' className='file-icon'/>
+                src={`${process.env.PUBLIC_URL}/assets/svgs/fileicon.jpeg`} alt='logo' className='file-icon'/>
                 <Typography type='H5' className='text-black file-text'>
                 World leader in consulting and finance
 
@@ -41,14 +42,14 @@ const AboutUs=()=>{
               </div>
               <div className='file'>
                 <AppImage 
-                src={`${process.env.PUBLIC_URL}/assets/svgs/logo.svg`} alt='logo' className='file-icon'/>
+                src={`${process.env.PUBLIC_URL}/assets/svgs/codeicon.jpeg`} alt='logo' className='file-icon'/>
                 <Typography type='H5' className='text-black file-text'>
                 Trusted and professional advisors for you
                  </Typography>
               </div>
               <div className='file'>
                 <AppImage 
-                src={`${process.env.PUBLIC_URL}/assets/svgs/logo.svg`} alt='logo' className='file-icon'/>
+                src={`${process.env.PUBLIC_URL}/assets/svgs/settingicon.jpeg`} alt='logo' className='file-icon'/>
                 <Typography type='H5' className='text-black file-text'>
                 Trusted and professional advisors for you
 
@@ -57,7 +58,7 @@ const AboutUs=()=>{
               </div>
               <div className='file'>
                 <AppImage 
-                src={`${process.env.PUBLIC_URL}/assets/svgs/logo.svg`} alt='logo' className='file-icon'/>
+                src={`${process.env.PUBLIC_URL}/assets/svgs/drafticon.jpeg`} alt='logo' className='file-icon'/>
                 <Typography type='H5' className='text-black file-text'>
                 Experience to give you a better results
 

@@ -7,7 +7,7 @@ const OurExperience=()=>{
         <>
         <div className='Our-Box'>
         <div  className='our-exoerience'>
-        <h6>Our Experience</h6>
+        <Typography type='H6'>Our Experience</Typography>
          <Typography type='H1' className=' text-dark title'>We Have Completed <span className='text-orange'> 150+ Projects </span>   Succesfully
          </Typography>
           

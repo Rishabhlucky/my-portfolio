@@ -3,14 +3,14 @@ const PosterSocialLinks=(props)=>{
     return (
         <div className={props.className}>
             <IconButton 
-            src={`${process.env.PUBLIC_URL}/assets/svgs/facebook-fill.svg`} className='bg-orange '/>
+            src={`${process.env.PUBLIC_URL}/assets/svgs/facebook-fill.svg`} />
         
         <IconButton 
             src={`${process.env.PUBLIC_URL}/assets/svgs/instagram-fill.svg`} className='bg-white'/>
         <IconButton 
             src={`${process.env.PUBLIC_URL}/assets/svgs/Vector.svg`} className='bg-white'/>
 
-<IconButton 
+        <IconButton 
             src={`${process.env.PUBLIC_URL}/assets/svgs/skype-fill.svg`} className='bg-white'/>  
         </div>
     )

@@ -53,7 +53,7 @@ text-align: center;
 }
 
 
-@media (min-width:768px){
+/* @media (min-width:100px){
     .justin , .couse {
      width: 470px;
      font-weight: 400;
@@ -63,4 +63,4 @@ text-align: center;
 
       height: 250px;
     }
-}
+} */

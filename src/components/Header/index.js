@@ -1,6 +1,8 @@
 import './style.css'
 import AppImage from '../AppImage'
 import DecktopNavbar from '../DecktopNavbar'
+import LogOut from '../../pages/LogOut'
+
 
 
 const Header=()=>{
@@ -19,7 +21,7 @@ const Header=()=>{
 
 
         <div className='lighticon'>
-            
+            <LogOut />
             <AppImage
             src={`${process.env.PUBLIC_URL}/assets/svgs/Light.svg`} alt='logo'  />
            

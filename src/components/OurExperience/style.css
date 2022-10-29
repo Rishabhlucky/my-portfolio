@@ -80,18 +80,17 @@ line-height: 150.6%;
 @media (min-width:1024px){
     .our-exoerience .title{
         width: 332px;
-height: 117px;
-left: 40px;
-top: 102px;
+      height: 117px;
 
-/* H3-31.25px */
+
+
 
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 31.25px;
 line-height: 123.6%;
-margin-left: 50px;
+margin: 10px;
     }
     .our-exoerience .subtitle{
         width: 331px;
@@ -108,6 +107,7 @@ font-size: 16px;
 line-height: 150.6%;
 margin-left: 50px;
     }
+    
     .our-exoerience .boxes{
       
         width: 270px;
@@ -120,6 +120,8 @@ margin-left: 50px;
 }
     .box .boxes{
       padding:1px 30px 78px 43px;
+      width: 250px;
+      height: 200px;
 }
 
 

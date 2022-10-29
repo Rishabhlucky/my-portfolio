@@ -1,11 +1,31 @@
 .divcontact{
-    height: 200px;
-    width: 200px;
-    margin: 0;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    /* text-align: center; */
+    
+}
+.divcontact .title{
+    text-align: center;
 }
 
 .divcontact .contactbox{
     display: flex;
-    width: 200px;
-    height: 200px;
+ 
+}
+.contactbox .title{
+    margin: 0;
+    text-align: left;
+}
+.contactbox .contact-img{
+    margin-top: 15px ;
+
+}
+.divcontact .contact-text{
+    margin: 15px 20px;
+    
+}
+@media (min-width:768px){
+    .divcontact {
+        height: 290px;
+    }
 }

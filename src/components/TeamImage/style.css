@@ -27,9 +27,11 @@
     .img-logo{
         display: flex;
         flex: 1;
+        margin: 60px;
        
 
     }
+
     .img2, .img3{
          display: inline; 
         margin-top: 50px;

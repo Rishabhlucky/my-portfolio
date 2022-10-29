@@ -1,0 +1,35 @@
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer ul li{
+    list-style: none;
+   margin-top: 15px;
+}
+.footer .colorbox{
+    height: 50px;
+    background-color: #FF5300;
+    height: 80px;
+    text-align: center;
+   
+}
+.colorbox .text{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+}
+@media (min-width:768px){
+    .footer{
+        display: flex;
+        justify-content: space-between;
+      
+    }
+    .footer div{
+        flex: 1;
+    }
+    .footer ul li{
+        margin: 8px;
+    }
+  
+}

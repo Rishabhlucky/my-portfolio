@@ -1,12 +1,26 @@
+
+
 .ourwork{
+
     text-align: center;
 }
-.ourwork div{
-    margin: 2% 45%;
-    width: 343px;
-    height: 370px;
+.ourwork-title{
+    margin: 20px 70px;
 
 }
 .img{
     margin: 30px;
+}
+@media (min-width:768px){
+    .ourwork-img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width:1024px){
+  .ourwork-img div{
+    margin:10px 40px
+  }
+
 }
